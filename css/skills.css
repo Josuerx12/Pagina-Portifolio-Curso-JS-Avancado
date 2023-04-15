@@ -1,0 +1,54 @@
+.skills {
+    flex-direction: column;
+    margin-left: 2rem;
+}
+
+.tools ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 1rem;
+    gap: 2rem;
+} 
+
+.personal ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.personal li {
+    margin-left: 2rem;
+}
+
+@media (min-width: 768px) {
+    .skills {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.fa-square-js {
+    color: yellow;
+    font-size: 50px;
+}
+
+.fa-html5 {
+    font-size: 50px;
+    color: orange;
+}
+
+.fa-sass {
+    font-size: 50px;
+    color: pink;
+}
+
+.fa-react {
+    font-size: 50px;
+    color: aqua;
+}
